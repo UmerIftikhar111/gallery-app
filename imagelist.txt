@@ -1,0 +1,6 @@
+bicycle.jpg
+building.jpg
+lake.jpg
+leaf.jpg
+lion.jpg
+road.jpg
