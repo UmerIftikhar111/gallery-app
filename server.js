@@ -54,7 +54,7 @@ app.post('/submit', (req, res) => {
   const selectedImage = req.body.image;
   const imagePath = '/images/'+selectedImage;
   
-  res.render('Home', { pageTitle: 'Image Selector', imageList, defaultImage: imagePath });
+  res.render('Home', { pageTitle: 'Gallery App', username: req.session.user, imageList, defaultImage: imagePath });
 });
 
 // Route to render the login page
